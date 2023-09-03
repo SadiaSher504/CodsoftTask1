@@ -1,0 +1,343 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color: aliceblue;
+   
+}
+body{
+    background-color:rgba(83, 89, 201, 0.86);
+}
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color:rgba(83, 89, 201, 0.86);
+}
+
+span {
+    color: #f9004d;
+    color: #9100f9;
+}
+
+a.logo {
+    text-decoration: none;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+a.logo:hover{
+    transform: scale(1.05);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar li a:hover {
+    color: #9100f9;
+    transition: .9s;
+
+}
+
+.container {
+    background: url(background2.png);
+    width: 100%;
+    height: 650px;
+    /* display: flex;
+    justify-content: space-between; */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#box1 {
+
+    height: 650px;
+    width: 100%;
+    text-align:center;
+    padding-top:150px;
+    padding-left:80px;
+  
+}
+
+#box1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    
+}
+i{
+    font-size: xx-large;
+    padding: 15px;
+   padding-top: 25px;
+   
+}
+
+i:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #f9004d;
+    color: #9100f9;
+
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #f9004d;
+    background-color: #9100f9;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+                      /*#box1 */
+.button:hover {
+    background-color: white;
+    color: #f9004d;
+    color: #9100f9;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+h3{
+    background-color:rgba(83, 89, 201, 0.86);
+    text-align: center;
+    padding:30px;
+    font-size: 40px;
+}
+.container1 
+{
+    background-color:rgba(83, 89, 201, 0.86);
+    width: 100%;
+    height: 505px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#col1 {
+    
+    height: 80%;
+    width:50%;
+    margin-top: 50px;
+    margin: 30px;
+    text-align: center;
+    /* border-radius: 20px;
+    border-style: ridge; */
+    align-content: center;
+}
+
+#col1 p {
+    margin: 70px;
+    text-align: justify;
+    color: white;
+}
+#col1 img{
+    width: max-content;
+    height: 300px;
+    border-radius: 10px;
+  margin-top: 50px;
+}
+
+.container1 
+{
+    width: 100%;
+    height: 505px;
+    display: flex;
+    justify-content: center;
+}
+
+#c1 {
+background: url(c1.png);
+    height: 70%;
+    width: 20%;
+    margin-top: 30px;
+    align-self: center;
+    border-radius: 20px;
+    border-style:  solid;
+    background: url(c3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#c1:hover{
+   cursor: pointer;
+   transform: scale(1.2);
+}
+#c2 {
+background: url(c2.png);
+    height: 70%;
+    width: 20%;
+    margin: 30px;
+    margin-top: 170px;
+    align-self: center;
+    border-radius: 20px;
+    border-style:  solid;
+    background: url(c1.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#c2:hover{
+   cursor: pointer;
+   transform: scale(1.2);
+}
+#c3 {
+
+    height: 70%;
+    width: 20%;
+    margin-top: 30px;
+    align-self: center;
+    border-radius: 20px;
+    border-style:  solid;
+    background: url(c4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#c3:hover{
+   cursor: pointer;
+   transform: scale(1.2);
+}
+.container1  #c1 p{
+    font-size: xx-large;
+    font-weight: bold;
+   margin-top: 95%;
+   padding-left: 20px;
+}
+.container1  #c2 p{
+    font-size: xx-large;
+    font-weight: bold;
+   margin-top: 5%;
+   padding-left: 20px;
+}
+.container1  #c3 p{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: right;
+   margin-top: 5%;
+   padding-right: 20px;
+}
+.but{
+    text-align: center;
+    background-color:rgba(83, 89, 201, 0.86);
+    padding: 20px;
+}
+.container2{
+  width: 100%;
+}
+.container3{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 h2{
+    background-color: rgba(83, 89, 201, 0.86);
+    text-align: center;
+}
+.container3{
+    background-color: rgba(83, 89, 201, 0.86);
+    width: 100%;
+    height: 600px;
+}
+.container3 #g1{
+    height: 70%;
+    width: 30%;
+    margin-top: 30px;
+    align-self: center;
+    border-radius: 20px;
+    border-style:  solid;
+    background: url(towerbridge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 50px;
+}
+.container3 #g2{
+    height: 70%;
+    width: 30%;
+    margin-top: 30px;
+    align-self: center;
+    border-radius: 20px;
+    border-style:  solid;
+    background: url(p3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 50px;
+}
+.container3 #g3{
+    padding: 20px;
+    height: 70%;
+    width: 30%;
+    margin-top: 30px;
+    align-self: center;
+    border-radius: 20px;
+    border-style:  solid;
+    background: url(Paris.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 50px;
+
+}
+
+.contact{
+    background-color: rgba(83, 89, 201, 0.86);
+}
+#contact{
+    background-color: rgba(83, 89, 201, 0.86);
+}
+.contact #box2
+{
+    height: 400px;
+    width: 100%;
+    text-align:justify;
+    padding-top:90px;
+    padding-left:80px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* footer */
+.container4{
+    padding: 30px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(44, 49, 150, 0.86);
+}
+.container4 h2{
+    background-color: rgba(44, 49, 150, 0.86);
+}
+.p1{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(44, 49, 150, 0.86);
+}
+.container4 li{
+    list-style: none;
+    padding: 5px;
+}
+.container4 li a{
+    text-decoration: none;
+  
+}
+.container4 input{
+    background-color: rgb(97, 97, 192);
+    margin: 30px;
+    padding: 10px;
+}
+
+
